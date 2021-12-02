@@ -1,0 +1,13 @@
+- defaults: 
+  link: 
+    relink: true 
+
+- clean: ['~']
+
+- link: 
+  ~/.config/fish/config.fish: config.fish
+  ~/.config/nvim: nvim 
+  ~/.config/awesome/rc.lua: rc.lua
+  ~/.config/awesome/themes/powerarrow: powerarrow
+  ~/.config/termite/config: config
+
