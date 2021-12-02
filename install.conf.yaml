@@ -1,0 +1,16 @@
+- defaults: 
+    link: 
+      relink: true 
+
+- clean: ['~']
+
+- link: 
+    ~/.config/fish/config.fish:
+    ~/.config/nvim: 
+    ~/.config/awesome/rc.lua:
+    ~/.config/awesome/themes/powerarrow: 
+    ~/.config/termite/config: 
+
+- shell: 
+    - [git submodule update --init --recursive, Installing submodules]
+
