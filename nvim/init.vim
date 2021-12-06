@@ -1,5 +1,5 @@
 "========================================================
-":::::::::::::::::::::::: SOURCES :::::::::::::::::::::::::
+"::::::::::::::::::::::::: SOURCES :::::::::::::::::::::::::
 "========================================================
 
 source /home/admin/.config/nvim/plugs.vim 
@@ -80,7 +80,7 @@ tnoremap <leader>\ <C-\><C-n>
 " insert 'end' then input normal mode O
 " inoremap <C-e> <CR>end<esc><S-O>
 
-
+nnoremap <leader>ss :source ~/dotfiles/nvim/init.vim<CR>
 
 
 "============================================================
