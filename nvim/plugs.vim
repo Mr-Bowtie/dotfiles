@@ -1,6 +1,7 @@
 
 call plug#begin('~/.local/share/nvim/plugged')
 
+Plug 'Konfekt/vim-scratchpad'
 Plug 'ThePrimeagen/harpoon'
 Plug 'iamcco/markdown-preview.nvim'
 " nvim-cmp and all sources
@@ -17,6 +18,8 @@ Plug 'hrsh7th/cmp-nvim-lsp-document-symbol'
 Plug 'quangnguyen30192/cmp-nvim-ultisnips'
 Plug 'quangnguyen30192/cmp-nvim-tags'
 " --------------------------------
+Plug 'vimwiki/vimwiki'
+Plug 'nvim-telescope/telescope-file-browser.nvim'
 Plug 'voldikss/vim-floaterm'
 Plug 'tpope/vim-surround'
 Plug 'ludovicchabant/vim-gutentags'

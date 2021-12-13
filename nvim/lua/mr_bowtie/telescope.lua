@@ -7,5 +7,10 @@
                 preview_width = 0.4,
             }
         }
-    }
+    },
+    extentions = { 
+        file_browser = {}  
+    } 
 }
+
+require("telescope").load_extension "file_browser"
