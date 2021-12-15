@@ -21,14 +21,14 @@ cmp.setup({
         { name = 'nvim_lsp'},
         { name = 'git'},
         { name = 'path'},
-        { name = 'buffer'},
+        -- { name = 'buffer'},
         { name = 'nvim_lua'},
         -- { name = 'spell'},
         { name = 'treesitter'},
         { name = 'calc'},
         { name = 'nvim_lsp_document_symbols'},
         { name = 'ultisnips'},
-        { name = 'tags'}
+        -- { name = 'tags'}
     }),
     formatting = {
         format = function(entry, vim_item)

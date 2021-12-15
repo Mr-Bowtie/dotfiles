@@ -1,6 +1,7 @@
 
 call plug#begin('~/.local/share/nvim/plugged')
 
+Plug 'gbrlsnchs/telescope-lsp-handlers.nvim'
 Plug 'Konfekt/vim-scratchpad'
 Plug 'ThePrimeagen/harpoon'
 Plug 'iamcco/markdown-preview.nvim'
@@ -18,6 +19,7 @@ Plug 'hrsh7th/cmp-nvim-lsp-document-symbol'
 Plug 'quangnguyen30192/cmp-nvim-ultisnips'
 Plug 'quangnguyen30192/cmp-nvim-tags'
 " --------------------------------
+Plug 'ahmedkhalf/project.nvim'
 Plug 'vimwiki/vimwiki'
 Plug 'nvim-telescope/telescope-file-browser.nvim'
 Plug 'voldikss/vim-floaterm'
