@@ -482,6 +482,10 @@ globalkeys = my_table.join(
             os.execute(string.format("pactl set-default-sink alsa_output.pci-0000_09_00.6.analog-stereo"))
         end),
     
+    awful.key({ altkey, "Control" }, "b",
+        function()
+            os.execute(string.format("pactl set-default-sink bluez_sink.A8_19_09_00_1A_26.a2dp_sink"))
+        end),
 
     --[[ ALSA beautiful.volume control
     awful.key({ altkey }, "Up",

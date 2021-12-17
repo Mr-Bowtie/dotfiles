@@ -88,7 +88,7 @@ nnoremap <leader>ss :source ~/dotfiles/nvim/init.vim<CR>
 "===========================================================
 
 " format lua files on save (not working right now)
-autocmd BufWritePost *.lua lua vim.lsp.buf.formatting_sync(nil, 100)
+" autocmd BufWritePost *.lua lua vim.lsp.buf.formatting_sync(nil, 100)
 
 " auto source init.vim on save
 au! BufWritePost $MYVIMRC source %

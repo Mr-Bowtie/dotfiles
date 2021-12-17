@@ -11,6 +11,7 @@
     extentions = { 
         file_browser = {},
         projects = {},
+        fzf = {},
         lsp_handlers = {
             disable = {},
 			location = {
@@ -36,4 +37,4 @@
 require("telescope").load_extension "file_browser"
 require("telescope").load_extension "lsp_handlers"
 require("telescope").load_extension "projects"
-
+require('telescope').load_extension "fzf"

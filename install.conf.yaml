@@ -10,6 +10,7 @@
     ~/.config/awesome/rc.lua:
     ~/.config/awesome/themes/powerarrow: 
     ~/.config/termite/config: 
+    ~/.config/git:
 
 - shell: 
     - [git submodule update --init --recursive, Installing submodules]
