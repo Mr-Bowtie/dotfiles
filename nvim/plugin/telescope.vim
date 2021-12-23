@@ -12,7 +12,7 @@ nnoremap <leader>. :lua require('telescope.builtin').find_files({prompt_title = 
 nnoremap <leader>gd :lua vim.lsp.buf.definition()<CR>
 nnoremap <leader>re :lua vim.lsp.buf.rename()<CR>
 nnoremap <leader>ds :lua vim.lsp.buf.document_symbol()<CR>
-nnoremap <leader>ws :lua vim.lsp.buf.workspace_symbol()<CR>
+" nnoremap <leader>ws :lua vim.lsp.buf.workspace_symbol()<CR>
 nnoremap <leader>lg :lua require('telescope.builtin').live_grep()<CR>
 nnoremap <leader>er :lua require('telescope.builtin').lsp_document_diagnostics()<CR>
 nnoremap <leader>gs :lua require('telescope.builtin').git_status()<CR>

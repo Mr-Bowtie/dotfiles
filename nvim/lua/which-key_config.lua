@@ -39,7 +39,6 @@ wk.setup {
         j = 'focus vim window down',
         k = 'focus vim window up',
         S = 'Open search and replace (Spectre)',
-        w = 'write current file'
     }, {prefix = "<leader>"}), 
 
     wk.register({["<leader>."] = "Find nvim files"}), 
@@ -56,7 +55,7 @@ wk.setup {
         }
     }, {prefix = '<leader>'}), -- navigation, window commands
     wk.register({
-        ["<leader>w"] = {":w<CR>", "Write current file"},
+        ["<C-s>"] = {":w<CR>", "Write current file"},
         ["<C-C>"] = {":cd %:p:h<CR>", "Change CWD to current file's parent"},
         ["<M-j>"] = {":resize -2<CR>", "Resize left"},
         ["<M-k>"] = {":resize +2<CR>", "Resize right"},

@@ -32,7 +32,7 @@ vim.o.termguicolors = true
 vim.o.scrolloff = 20
 vim.o.sidescrolloff = 20
 vim.o.signcolumn = "yes"
-vim.o.colorcolumn = "80"
+-- vim.o.colorcolumn = "80"
 vim.o.splitbelow = true
 vim.o.spell = true
 

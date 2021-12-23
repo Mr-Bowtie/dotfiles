@@ -18,6 +18,10 @@ Plug 'quangnguyen30192/cmp-nvim-ultisnips'
 Plug 'quangnguyen30192/cmp-nvim-tags'
 -- -----------------------------------
 
+Plug 'rebelot/kanagawa.nvim'
+Plug "glepnir/dashboard-nvim"
+Plug "liuchengxu/vim-clap"
+Plug 'voldikss/clap-floaterm'
 Plug 'sudormrfbin/cheatsheet.nvim'
 Plug ( 'nvim-telescope/telescope-fzf-native.nvim', {[ 'do' ] = vim.fn['make']} )
 Plug 'gbrlsnchs/telescope-lsp-handlers.nvim'
