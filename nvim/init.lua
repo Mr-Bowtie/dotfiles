@@ -16,7 +16,7 @@ require("floaterm_config")
 require("remap_template_config")
 require("scratchpad_config")
 
-vim.cmd('colorscheme onedark')
+vim.cmd('colorscheme tokyonight')
 
 nmap("cw", "")
 imap("cw", "")

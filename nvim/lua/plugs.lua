@@ -18,6 +18,7 @@ Plug 'quangnguyen30192/cmp-nvim-ultisnips'
 Plug 'quangnguyen30192/cmp-nvim-tags'
 -- -----------------------------------
 
+Plug 'folke/tokyonight.nvim'
 Plug 'rebelot/kanagawa.nvim'
 Plug "glepnir/dashboard-nvim"
 Plug "liuchengxu/vim-clap"

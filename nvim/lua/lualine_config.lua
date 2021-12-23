@@ -1,6 +1,6 @@
 require('lualine').setup {
     options = {
-        theme = 'horizon'
+        theme = 'tokyonight'
     }, 
     extensions = {'fugitive'},
     sections = {
