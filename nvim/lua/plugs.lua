@@ -18,6 +18,9 @@ Plug 'quangnguyen30192/cmp-nvim-ultisnips'
 Plug 'quangnguyen30192/cmp-nvim-tags'
 -- -----------------------------------
 
+Plug 'michal-h21/vim-zettel'
+Plug 'michal-h21/vimwiki-sync'
+Plug 'phaazon/hop.nvim'
 Plug 'folke/tokyonight.nvim'
 Plug 'rebelot/kanagawa.nvim'
 Plug "glepnir/dashboard-nvim"
@@ -46,8 +49,8 @@ Plug 'initial1ze/nvim-spotify'
 Plug 'mhartington/oceanic-next'
 Plug ( 'nvim-treesitter/nvim-treesitter', {[ 'do' ] = vim.fn[  ':TSUpdate' ]} )
 Plug 'folke/which-key.nvim'
-Plug 'unblevable/quick-scope'
-Plug 'justinmk/vim-sneak'
+-- Plug 'unblevable/quick-scope'
+-- Plug 'justinmk/vim-sneak'
 Plug 'b3nj5m1n/kommentary'
 Plug 'joshdick/onedark.vim'
 Plug 'vim-scripts/fish-syntax'

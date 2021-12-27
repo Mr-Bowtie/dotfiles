@@ -16,6 +16,10 @@ function tmap(shortcut, command)
     map('t', shortcut, command)
 end
 
+function vmap(shortcut, command)
+    map('v', shortcut, command)
+end
+
 -- example remap 
 -- map('n', '<C-e>', ':e %', {silent = true})
 -- map('n', '<leader>?', ':Cheatsheet')

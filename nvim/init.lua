@@ -15,8 +15,11 @@ require("lsp_config")
 require("floaterm_config")
 require("remap_template_config")
 require("scratchpad_config")
+require("dashboard_config")
+require("hop_config")
+require("vimwiki_config")
 
 vim.cmd('colorscheme tokyonight')
+vim.cmd("autocmd! FileType help :wincmd L | :vert resize 90")
 
-nmap("cw", "")
-imap("cw", "")
+imap("<C-S>", ":w <CR>")

@@ -14,7 +14,7 @@ nnoremap re :lua vim.lsp.buf.rename()<CR>
 nnoremap <leader>ds :lua vim.lsp.buf.document_symbol()<CR>
 " nnoremap <leader>ws :lua vim.lsp.buf.workspace_symbol()<CR>
 nnoremap <leader>lg :lua require('telescope.builtin').live_grep()<CR>
-nnoremap <leader>le :lua require('telescope.builtin').lsp_document_diagnostics()<CR>
+nnoremap <leader>le :Telescope diagnostics bufnr=0
 " nnoremap <leader>pw :lua require('telescope.builtin').grep_string { search = vim.fn.expand("<cword>") }<CR>
 "
 nnoremap <leader>lp :Telescope projects<CR>

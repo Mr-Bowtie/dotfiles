@@ -60,8 +60,8 @@ tnoremap <leader>\ <C-\><C-n>
 
 " split navigation  
 " nnoremap <silent> <leader>h <C-W><C-H>--
-" nnoremap <silent> <leader>l <C-W><C-L>--
 " nnoremap <silent> <leader>j <C-W><C-J>--
+" nnoremap <silent> <leader>l <C-W><C-L>--
 " nnoremap <silent> <leader>k <C-W><C-K>
 " " delete buffer in split without losing split
 " nnoremap <silent> <leader>cb :bp \| bd! #<CR>

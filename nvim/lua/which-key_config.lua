@@ -65,8 +65,8 @@ wk.setup {
         ["<S-TAB>"] = {":bprevious<CR>", "Last buffer"},
         ["<C-H>"] = {"<C-W><C-H>", "Move split left"},
         ["<C-L>"] = {"<C-W><C-L>", "Move split right"},
-        ["<C-J>"] = {"<C-W><C-J>", "Move split down"},
-        ["<C-K>"] = {"<C-W><C-K>", "Move split up"}
+        ["<C-J>"] = {":m .+1<CR>", "Move line down one" },
+        ["<C-K>"] = {":m .-2<CR>", "Move line up one"}
     }),
 
     wk.register({
