@@ -11,7 +11,12 @@
     extentions = { 
         file_browser = {},
         projects = {},
-        fzf = {},
+        fzf = {
+            fuzzy = true, 
+            override_genereic_sorter = true, 
+            override_file_sorter = true, 
+            case_mode = "smart_case",
+        },
         lsp_handlers = {
             disable = {},
 			location = {

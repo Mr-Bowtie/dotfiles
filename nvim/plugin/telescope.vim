@@ -19,3 +19,4 @@ nnoremap <leader>le :Telescope diagnostics bufnr=0
 "
 nnoremap <leader>lp :Telescope projects<CR>
 nnoremap <leader>lo :Telescope oldfiles<CR>
+nnoremap <leader>lt :Telescope tags<CR>

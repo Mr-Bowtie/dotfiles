@@ -18,8 +18,10 @@ require("scratchpad_config")
 require("dashboard_config")
 require("hop_config")
 require("vimwiki_config")
+require("vimwiki-sync_config")
+require("vim-zettel_config")
 
 vim.cmd('colorscheme tokyonight')
 vim.cmd("autocmd! FileType help :wincmd L | :vert resize 90")
 
-imap("<C-S>", ":w <CR>")
+imap("<C-S>", "<ESC> :w<CR>k")

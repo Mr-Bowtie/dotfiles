@@ -18,6 +18,8 @@ Plug 'quangnguyen30192/cmp-nvim-ultisnips'
 Plug 'quangnguyen30192/cmp-nvim-tags'
 -- -----------------------------------
 
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
 Plug 'michal-h21/vim-zettel'
 Plug 'michal-h21/vimwiki-sync'
 Plug 'phaazon/hop.nvim'

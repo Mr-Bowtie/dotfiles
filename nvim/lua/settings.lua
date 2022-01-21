@@ -21,7 +21,8 @@ vim.o.relativenumber = true
 vim.o.nu = true
 vim.o.hidden = true 
 vim.o.ignorecase = true
-vim.o.wrap = false
+vim.o.wrap = true
+vim.o.linebreak = true
 vim.o.smartcase = true
 vim.o.swapfile = false
 vim.o.backup = false
@@ -35,5 +36,5 @@ vim.o.signcolumn = "yes"
 -- vim.o.colorcolumn = "80"
 vim.o.splitbelow = true
 vim.o.splitright = true
-vim.o.spell = true
-
+vim.o.spell = false
+-- vim.o.foldmethod = 'indent'
