@@ -68,7 +68,7 @@ set -g theme_title_use_abbreviated_path no
 
 alias ll "exa -lhH --icons --git"
 alias lt "exa -lhHT --icons --git" 
-alias grab "scrot '%F_%H-%M.png' -se 'mv \$f ~/pictures/screenshots/'"
+alias grab "scrot '%F_%H-%M.png' -s -e 'mv \$f /home/admin/pictures/screenshots/'"
 alias nmlist "nmcli device wifi list"
 alias nmconnect-house "nmcli device wifi connect E0:22:04:70:85:66 password BENDresterACEpre" 
 alias nmconnect-ext "nmcli device wifi connect 90:9A:4A:A1:64:E1 password BENDresterACEpre" 
@@ -78,6 +78,7 @@ alias steam-picker " ruby ~/programming/steam-selector/lib/main.rb"
 alias ofupdate "sudo aura -Syyu"
 alias aurupdate "sudo aura -Au"
 alias pom "ruby ~/programming/side-projects/pomodoro/main.rb"
+alias wmswap "killall xfwm4 && awesome &"
 status --is-interactive; and rbenv init - fish | source
 
 # if test -n "$DESKTOP_SESSION"
