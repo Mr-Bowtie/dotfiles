@@ -484,7 +484,7 @@ globalkeys = my_table.join(
     
     awful.key({ altkey, "Control" }, "b",
         function()
-            os.execute(string.format("pactl set-default-sink bluez_sink.A8_19_09_00_1A_26.a2dp_sink"))
+            os.execute(string.format("pactl set-default-sink bluez_sink.1C_52_16_C3_41_26.a2dp_sink"))
         end),
 
     --[[ ALSA beautiful.volume control
