@@ -7,9 +7,7 @@
 - link: 
     ~/.config/fish:
     ~/.config/nvim: 
-    # ~/.config/awesome/rc.lua:
-    # ~/.config/aesome/themes/powerarrow: 
-    ~/.config/termite/config: 
+    ~/.config/kitty:
     ~/.config/git:
     ~/.config/ranger:
 

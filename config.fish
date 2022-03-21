@@ -1,6 +1,6 @@
 
 
-export PATH=/home/admin/.rbenv/shims:/home/admin/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/var/lib/snapd/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/admin/.gem/ruby/2.7.0/bin:/home/admin/Documents/shell_scripts:/home/admin/.luaver:/home/admin/.rbenv/bin
+export PATH=/home/mr_bowtie/.rbenv/shims:/home/mr_bowtie/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/var/lib/snapd/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/mr_bowtie/.local/share/gem/ruby/3.0.0/bin:/home/mr_bowtie/Documents/shell_scripts:/home/mr_bowtie/.luaver:/home/mr_bowtie/.rbenv/bin
 export VISUAL=nvim 
 export EDITOR="$VISUAL"
 export BROWSER=brave
@@ -68,7 +68,7 @@ set -g theme_title_use_abbreviated_path no
 
 alias ll "exa -lhH --icons --git"
 alias lt "exa -lhHT --icons --git" 
-alias grab "scrot '%F_%H-%M.png' -s -e 'mv \$f /home/admin/pictures/screenshots/'"
+alias grab "scrot '%F_%H-%M.png' -s -e 'mv \$f /home/mr_bowtie/pictures/screenshots/'"
 alias nmlist "nmcli device wifi list"
 alias nmconnect-house "nmcli device wifi connect E0:22:04:70:85:66 password BENDresterACEpre" 
 alias nmconnect-ext "nmcli device wifi connect 90:9A:4A:A1:64:E1 password BENDresterACEpre" 

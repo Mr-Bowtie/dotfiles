@@ -5,7 +5,7 @@ nnoremap <leader>ld :lua telescope_find_dir({hidden = true, cwd = '~'})<CR>
 nnoremap <leader>fb :lua require("telescope").extensions.file_browser.file_browser()<CR>
 nnoremap <leader>lb :lua require('telescope.builtin').buffers()<CR>
 nnoremap <leader>lh :lua require('telescope.builtin').help_tags()<CR>
-nnoremap <leader>. :lua require('telescope.builtin').find_files({prompt_title = "< Configs >", cwd = "/home/admin/dotfiles/", hidden = true})<CR>
+nnoremap <leader>. :lua require('telescope.builtin').find_files({prompt_title = "< Configs >", cwd = "/home/mr_bowtie/dotfiles/", hidden = true})<CR>
 " nnoremap <leader>. :lua require('telescope.builtin').find_files({prompt_title = "< Configs >", cwd = "/home/admin/dotfiles/nvim", hidden = true})<CR>
  nnoremap gr :lua vim.lsp.buf.references()<CR>
  "require('telescope').extensions.lsp_handlers.references()<CR>

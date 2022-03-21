@@ -10,6 +10,7 @@ vim.g.floaterm_keymap_kill = "<leader>tk"
 vim.g.floaterm_position = "right"
 vim.g.floaterm_opener = "edit"
 vim.g.floaterm_height = 0.75
+vim.g.floaterm_shell = "fish"
 
 nmap("<leader>ti", ":FloatermNew irb<CR>")
 nmap("<leader>;", ":FloatermNew --wintype=popup --height=7<CR>")
