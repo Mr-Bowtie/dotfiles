@@ -5,10 +5,10 @@
 - clean: ['~']
 
 - link: 
-    ~/.config/fish/config.fish:
+    ~/.config/fish:
     ~/.config/nvim: 
-    ~/.config/awesome/rc.lua:
-    ~/.config/awesome/themes/powerarrow: 
+    # ~/.config/awesome/rc.lua:
+    # ~/.config/aesome/themes/powerarrow: 
     ~/.config/termite/config: 
     ~/.config/git:
     ~/.config/ranger:
