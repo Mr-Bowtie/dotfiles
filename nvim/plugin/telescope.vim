@@ -12,7 +12,7 @@ nnoremap <leader>. :lua require('telescope.builtin').find_files({prompt_title = 
 nnoremap gd :lua vim.lsp.buf.definition()<CR>
 nnoremap re :lua vim.lsp.buf.rename()<CR>
 nnoremap <leader>ds :lua vim.lsp.buf.document_symbol()<CR>
-" nnoremap <leader>ws :lua vim.lsp.buf.workspace_symbol()<CR>
+nnoremap <leader>ls :lua vim.lsp.buf.workspace_symbol()<CR>
 nnoremap <leader>lg :lua require('telescope.builtin').live_grep()<CR>
 nnoremap <leader>le :Telescope diagnostics bufnr=0
 " nnoremap <leader>pw :lua require('telescope.builtin').grep_string { search = vim.fn.expand("<cword>") }<CR>

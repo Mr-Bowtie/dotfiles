@@ -1,4 +1,5 @@
 require('hop').setup({
+    keys = "pyfgcrlaoeuidhtnsqjkxbmwvz"
 })
 require('remap_template_config')
 

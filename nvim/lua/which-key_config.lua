@@ -48,10 +48,14 @@ wk.setup {
             name = "Harpoon",
             f = {":lua require('harpoon.mark').add_file() <CR>", 'Add file'},
             m = {":lua require('harpoon.ui').toggle_quick_menu() <CR>", 'Toggle menu'},
-            u = {":lua require('harpoon.ui').nav_file(1) <CR>", 'Go to file 1'},
-            e = {":lua require('harpoon.ui').nav_file(2) <CR>", 'Go to file 2'},
-            o = {":lua require('harpoon.ui').nav_file(3) <CR>", 'Go to file 3'},
-            a = {":lua require('harpoon.ui').nav_file(4) <CR>", 'Go to file 4'}
+            i = {":lua require('harpoon.ui').nav_file(1) <CR>", 'Go to file 1'},
+            u = {":lua require('harpoon.ui').nav_file(2) <CR>", 'Go to file 2'},
+            e = {":lua require('harpoon.ui').nav_file(3) <CR>", 'Go to file 3'},
+            o = {":lua require('harpoon.ui').nav_file(4) <CR>", 'Go to file 4'},
+            a = {":lua require('harpoon.ui').nav_file(5) <CR>", 'Go to file 5'},
+            x = {":lua require('harpoon.ui').nav_file(6) <CR>", 'Go to file 6'},
+            k = {":lua require('harpoon.ui').nav_file(7) <CR>", 'Go to file 7'},
+            j = {":lua require('harpoon.ui').nav_file(8) <CR>", 'Go to file 8'},
         }
     }, {prefix = '<leader>'}), -- navigation, window commands
     wk.register({
