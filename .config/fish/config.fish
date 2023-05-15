@@ -83,6 +83,8 @@ alias byobu-rails "BYOBU_WINDOWS=rails-project byobu"
 alias vim "nvim"
 alias weather "curl wttr.in"
 alias insurgence "wine ~/Downloads/Pokemon\ Insurgence\ 1.2.7\ Core/Game.exe"
+alias config="git --git-dir=$HOME/.cfg-linux --work-tree=$HOME"
+alias lazy-config="lazygit --git-dir=$HOME/.cfg-linux/ --work-tree=$HOME"
 status --is-interactive; and rbenv init - fish | source
 
 # if test -n "$DESKTOP_SESSION"
