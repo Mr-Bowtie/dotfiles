@@ -1,10 +1,12 @@
 
 
 export PATH=/home/mr_bowtie/.rbenv/shims:/home/mr_bowtie/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/var/lib/snapd/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/mr_bowtie/.gem/ruby/2.7.0/bin:/home/mr_bowtie/Documents/shell_scripts:/home/mr_bowtie/.luaver:/home/mr_bowtie/.rbenv/bin
+export FLYCTL_INSTALL="/home/mr_bowtie/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
 export VISUAL=nvim 
 export EDITOR="$VISUAL"
-export BROWSER=firefoxZZ
-
+export BROWSER=firefox
+status --is-interactive; and rbenv init - fish | source
 #vi-key bindings 
 fish_vi_key_bindings
 
@@ -83,8 +85,8 @@ alias byobu-rails "BYOBU_WINDOWS=rails-project byobu"
 alias vim "nvim"
 alias weather "curl wttr.in"
 alias insurgence "wine ~/Downloads/Pokemon\ Insurgence\ 1.2.7\ Core/Game.exe"
-alias config="git --git-dir=$HOME/.cfg-linux --work-tree=$HOME"
-alias lazy-config="lazygit --git-dir=$HOME/.cfg-linux/ --work-tree=$HOME"
+alias config="git --git-dir=$HOME/.cfg --work-tree=$HOME"
+alias lazy-config="lazygit --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 status --is-interactive; and rbenv init - fish | source
 
 # if test -n "$DESKTOP_SESSION"
