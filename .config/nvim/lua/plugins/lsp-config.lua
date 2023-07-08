@@ -3,11 +3,11 @@ return {
     opts = {
         autoformat = false,
         servers = {
-            --   solargraph = {
+            solargraph = {
             --     settings = {
             --       formatting = true,
             --     },
-            --   },
+              },
             tsserver = {
                 settings = {
                     javascript = {
@@ -17,6 +17,11 @@ return {
                         },
                     },
                 },
+            },
+            emmet_ls = {
+              settings = {
+                filetypes = {"css", "eruby", "html", "javascript", "sass", "scss"},
+              },
             },
         },
         -- setup = {
