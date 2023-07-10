@@ -14,6 +14,7 @@ return {
   keys = {
     { "<leader>ti", ":FloatermNew irb<CR>", desc = "Open IRB" },
     { "<leader>tn", ":FloatermNew<CR>", desc = "Open new floaterm" },
+    { "<leader>tt", ":FloatermToggle<CR>", desc = "Toggle floaterm" },
     -- {"<leader>trs", ":FloatermNew --name=rails_server rails s<CR>", desc = 'Start local rails server'}
     -- {"<leader>tlr", ":FloatermNew --name=guard_lr bundle exec guard<CR>", desc = "Start guard live-reloader"}
   },
