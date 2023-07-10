@@ -8,6 +8,7 @@ return {
     "hrsh7th/cmp-path",
     "saadparwaiz1/cmp_luasnip",
     "quangnguyen30192/cmp-nvim-ultisnips",
+    "quangnguyen30192/cmp-nvim-tags",
   },
   opts = function()
     local cmp = require("cmp")
@@ -38,7 +39,8 @@ return {
         { name = "luasnip" },
         { name = "buffer" },
         { name = "path" },
-        { name = "ultisnips"}
+        { name = "ultisnips"},
+        { name = "tags"}
       }),
       formatting = {
         format = function(_, item)
