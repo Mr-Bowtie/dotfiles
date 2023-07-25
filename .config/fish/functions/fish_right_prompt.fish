@@ -9,6 +9,11 @@ function fish_right_prompt
         return
     end
 
+    if test -e .bare
+        set_color normal
+        return
+    end
+
     # Get the git directory for later use.
     # Return if not inside a Git repository work tree.
     if not set -l git_dir (command git rev-parse --git-dir 2>/dev/null)
