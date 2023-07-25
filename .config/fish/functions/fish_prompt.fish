@@ -9,6 +9,21 @@ function fish_prompt
     if fish_is_root_user
         echo -n (set_color red)'# '
     end
+
+    if rbenv local >/dev/null 2>&1
+        echo -n (set_color red)\ue21e' '(rbenv local)' '
+    else
+        echo -n (set_color yellow)\ue21e' '(rbenv global)' '
+    end
+
     echo -n (set_color red)'❯'(set_color yellow)'❯'(set_color green)'❯ '
     set_color normal
+end
+
+function local_ruby
+
+end
+
+function git_repo
+
 end
