@@ -47,6 +47,11 @@ function gac --description "git add all files and commit with provided message"
     git commit -m $argv
 end
 
+function restart_echo_dev --description "rebuild and run an interactive docker container to see fresh changes for Echo Chamber testing"
+  docker build ./ -t 'echo_chamber:testing'
+  docker run -it -e APP_ENV=development echo_chamber:testing
+end
+
 #bobthefish options 
 set -g theme_display_ruby yes
 set -g theme_display_vi yes
@@ -86,3 +91,4 @@ alias rails_env_builder="source /home/mr_bowtie/scripts/new_rails_env"
 alias rdev_up="env RAILS_ENV=development docker compose up"
 alias rtest_up="env RAILS_ENV=test docker compose up"
 alias rdown="docker compose down"
+alias show_breakman_report="firefox --new-window tmp/brakeman.html"
