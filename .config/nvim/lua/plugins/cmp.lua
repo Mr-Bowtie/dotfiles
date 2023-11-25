@@ -9,6 +9,7 @@ return {
     "saadparwaiz1/cmp_luasnip",
     "quangnguyen30192/cmp-nvim-ultisnips",
     "quangnguyen30192/cmp-nvim-tags",
+    "garyhurtz/cmp_bulma.nvim"
   },
   opts = function()
     local cmp = require("cmp")
@@ -40,7 +41,13 @@ return {
         { name = "buffer" },
         { name = "path" },
         { name = "ultisnips"},
-        { name = "tags"}
+        { name = "bulma",
+          option = {
+            filetypes = {
+              "html.erb"
+            }
+          }
+        }
       }),
       formatting = {
         format = function(_, item)

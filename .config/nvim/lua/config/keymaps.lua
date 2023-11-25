@@ -37,11 +37,11 @@ end, { expr = true })
 
 -- LSP commands
 local bufopts = { noremap = true, silent = true, buffer = bufnr }
-map("n", "<leader>fc", function()
+map("n", "<leader>rf", function()
   vim.lsp.buf.format({ async = true })
 end, bufopts)
 
-map("v", "<leader>fc", function()
+map("v", "<leader>rf", function()
   vim.lsp.buf.format({ async = true })
 end, bufopts)
 
@@ -51,3 +51,4 @@ map("i", "<C-e>", "<CR>end<ESC><S-O>")
 -- change cwd to current files parent
 map("n", "<C-c>", ":cd %:p:h<CR>")
 
+map("n", "<leader>ef", "<cmd>!erb-format % --write<CR>")

@@ -1,4 +1,3 @@
-
 return {
   "neovim/nvim-lspconfig",
   dependencies = {
@@ -22,12 +21,15 @@ return {
           filetypes = { "css", "eruby", "html", "javascript", "sass", "scss" },
         },
       },
+      solargraph = {
+        cmd = {"bundle", "exec", "solargraph", "stdio"}
+      },
     },
     setup = {
       solargraph = function(_, opts)
-        require('lspconfig-bundler').setup()
-        require('lspconfig').solargraph.setup({})
-      end
+        require("lspconfig-bundler").setup()
+        require("lspconfig").solargraph.setup({})
+      end,
     },
   },
 }
