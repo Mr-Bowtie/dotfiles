@@ -15,11 +15,11 @@ return {
         desc = "Search previously opened files (Oldfiles)",
       },
       {
-        "<leader>sp",
+        "<leader>ws",
         function()
-          require("telescope").extensions.project.project({ display_type = "full" })
+          require("telescope.builtin").find_files({ prompt_title = "< VimWiki >", cwd = "~/vimwiki/", hidden = true })
         end,
-        desc = "Search projects",
+        desc = "Search Vimwiki",
       },
     },
     dependencies = {
@@ -34,12 +34,6 @@ return {
         "ThePrimeagen/harpoon",
         config = function()
           require("telescope").load_extension("harpoon")
-        end,
-      },
-      {
-        "nvim-telescope/telescope-project.nvim",
-        config = function()
-          require("telescope").load_extension("project")
         end,
       },
     },

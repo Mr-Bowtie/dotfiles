@@ -9,3 +9,10 @@ vim.o.rnu = false
 -- set winhighlight=Normal:MyNormal,NormalNC:MyNormalNCnvim/lua/con
 vim.api.nvim_set_hl(0, "Comment", { fg = "#75c2d1", bold = true })
 -- vim.cmd("highlight Comment guifg=#75c2d1")
+vim.g.vimwiki_list = {
+  {
+    path = '~/vimwiki/',
+    syntax = 'markdown',
+    ext = 'md'
+  }
+}
