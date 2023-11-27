@@ -16,10 +16,13 @@ return {
       },
       {
         "<leader>ws",
+        "<leader>sp",
         function()
           require("telescope.builtin").find_files({ prompt_title = "< VimWiki >", cwd = "~/vimwiki/", hidden = true })
+          require("telescope").extensions.project.project({ display_type = "full" })
         end,
         desc = "Search Vimwiki",
+        desc = "Search projects",
       },
     },
     dependencies = {
