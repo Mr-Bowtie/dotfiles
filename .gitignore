@@ -2,3 +2,5 @@ tags
 */tags
 dotbot/
 nvim/lua-language-server/
+.ssh/*
+!.ssh/config
