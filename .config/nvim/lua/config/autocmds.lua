@@ -7,3 +7,22 @@
 --     vim.lsp.buf.format()
 --   end,
 -- })
+
+-- vim.api.nvim_create_augroup("remember_folds", {clear = true})
+-- vim.api.nvim_create_autocmd({"BufWinLeave"}, {
+--   group = "remember_folds",
+--   pattern = {"*.md"},
+--   callback = function()
+--     vim.cmd("mkview 1")
+--   end,
+-- })
+-- vim.api.nvim_create_autocmd({"BufWinEnter"}, {
+--   group = "remember_folds",
+--   pattern = {"*.md"},
+--   callback = function()
+--     vim.cmd("silent! loadview 1")
+--   end,
+-- })
+
+vim.cmd("autocmd BufWinLeave *.md mkview")
+-- vim.cmd("autocmd BufReadPost *.md loadview")
