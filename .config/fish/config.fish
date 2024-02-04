@@ -6,6 +6,7 @@ export PATH="$FLYCTL_INSTALL/bin:$PATH"
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 export BROWSER=firefox
+export NVIM_DIR="/home/mr_bowtie/.config/nvim"
 status --is-interactive; and rbenv init - fish | source
 fish_vi_key_bindings
 
@@ -98,3 +99,4 @@ alias td_ne="todo.sh note edit"
 alias td_ns="todo.sh note show"
 alias show_breakman_report="firefox --new-window tmp/brakeman.html"
 alias fish_config="nvim ~/.config/fish/config.fish"
+alias upgrade_discord="sudo pacman -Sy discord"
