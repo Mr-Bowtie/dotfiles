@@ -17,3 +17,9 @@ vim.g.vimwiki_list = {
     ext = 'md'
   }
 }
+vim.g.foldlevel = 0
+vim.g.vimwiki_folding = 'marker'
+-- vim.g.foldmethod = "marker"
+vim.g.zettel_fzf_command = "ag --smart-case -l"
+vim.g.zettel_fzf_options = ( '--with-nth=-1' )
+vim.g.zettel_format = "%y%m%d-%title"
